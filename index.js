@@ -93,7 +93,7 @@ bot.on("message", async (ctx) => {
       textshare = `Halo saya menggunakan bot jadwal sholat yang sangat mudah untuk digunakan.\nKamu juga bisa menggunakannya di https://t.me/${bot.options.username} 😍\n\nJangan lupa share ke teman-teman kamu ya!`;
       client.sendMessage(
         chatId,
-        `Halo <b><a href="tg://user?id=${userId}">${username}</a></b>.\nSelamat datang di ${bot.botInfo/first_name}!\n\nKirim lokasi kamu untuk menyimpan lokasi kamu.\nKetik /help untuk melihat daftar perintah yang tersedia.`,
+        `Halo <b><a href="tg://user?id=${userId}">${username}</a></b>.\nSelamat datang di ${bot.botInfo.first_name}!\n\nKirim lokasi kamu untuk menyimpan lokasi kamu.\nKetik /help untuk melihat daftar perintah yang tersedia.`,
         {
           parse_mode: "HTML",
           reply_to_message_id: msgId,
