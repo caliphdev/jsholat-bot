@@ -36,4 +36,4 @@ Jika mengalami kesulitan, silahkan kontak saya di
 - [Twitter](https://twitter.com/caliphdev)
 
 ## Lisensi
-[Apache License 2.0][LICENSE]
+[Apache License 2.0](LICENSE)
